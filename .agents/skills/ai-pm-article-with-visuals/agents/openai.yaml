@@ -1,0 +1,13 @@
+interface:
+  display_name: AI 产品文章与配图
+  short_description: 多轮打磨 AI 产品文章，并生成统一风格的公众号配图
+  default_prompt: 使用 $ai-pm-article-with-visuals，把我的 AI 产品笔记整理成一篇可发布文章，并配套统一风格图片。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
